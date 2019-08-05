@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnemyTableEditor", "EnemyTableEditor\EnemyTableEditor.csproj", "{220D084B-24F2-4201-B02F-827EC17890AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{220D084B-24F2-4201-B02F-827EC17890AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{220D084B-24F2-4201-B02F-827EC17890AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{220D084B-24F2-4201-B02F-827EC17890AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{220D084B-24F2-4201-B02F-827EC17890AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {126094A3-13D5-4516-9ACB-D7471C15D00E}
+	EndGlobalSection
+EndGlobal
