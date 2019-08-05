@@ -3,6 +3,9 @@
 ### Tool製作の授業の残作業 (7/27〜7/31)
 授業で使用しているprojectにEnemyTableへのUPDATE/INSERT/DELETEを追加する。  
 
+#### 提出先  
+  DBTool folderの下に個人ごとのfolderを作成し、その中にprojectを置く。
+
 ### PHP環境構築
 1. 環境構築 (8/1〜8/8)  
   Apache or NginxをUbuntuにinstallし、PHP開発環境を構築する。
