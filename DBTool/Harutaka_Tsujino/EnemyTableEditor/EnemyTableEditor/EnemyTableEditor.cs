@@ -273,7 +273,7 @@ namespace EnemyTableEditor
 
 			switch (obj)
 			{
-				case bool b:
+				case bool _:
 
 					if (value == "" || value == "False") value = "FALSE";
 
@@ -281,13 +281,13 @@ namespace EnemyTableEditor
 
 					break;
 
-				case DBNull dbn:
+				case DBNull _:
 
 					value = "FALSE";
 
 					break;
 
-				case string s:
+				case string _:
 
 					if (value == "")
 					{
@@ -432,9 +432,7 @@ namespace EnemyTableEditor
 				{
 					cmd = new MySqlCommand(CreateDeleteRowCmd(dataRow), connection);
 
-					if (cmd == null) continue;
-
-					cmd.ExecuteNonQuery();
+					cmd?.ExecuteNonQuery();
 
 					continue;
 				}
@@ -455,9 +453,7 @@ namespace EnemyTableEditor
 						break;
 				}
 
-				if (cmd == null) continue;
-
-				cmd.ExecuteNonQuery();
+				cmd?.ExecuteNonQuery();
 			}
 
 			SetAdvanceDataTable();
