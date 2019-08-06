@@ -16,7 +16,7 @@ namespace EnemyTableEditor
 	public partial class EnemyTableEditor_frm : Form
 	{
 		private DataTable bindingDataTable;
-		//private string tableName = "enemy_informations";
+		private string tableName = "EnemyTable";
 		private int autoIncrement;
 
 		public EnemyTableEditor_frm()
